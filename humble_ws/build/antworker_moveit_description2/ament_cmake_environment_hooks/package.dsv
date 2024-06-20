@@ -1,0 +1,4 @@
+source;share/antworker_moveit_description2/local_setup.bash
+source;share/antworker_moveit_description2/local_setup.dsv
+source;share/antworker_moveit_description2/local_setup.sh
+source;share/antworker_moveit_description2/local_setup.zsh

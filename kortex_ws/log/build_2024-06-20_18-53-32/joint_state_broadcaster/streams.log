@@ -1,0 +1,107 @@
+[0.047s] Invoking command in '/home/kortex_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/joint_state_broadcaster
+[0.432s] -- The CXX compiler identification is GNU 11.4.0
+[0.433s] -- Detecting CXX compiler ABI info
+[0.434s] -- Detecting CXX compiler ABI info - done
+[0.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.434s] -- Detecting CXX compile features
+[0.434s] -- Detecting CXX compile features - done
+[0.434s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.542s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.726s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.742s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.748s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.748s] -- BACKWARD_HAS_UNWIND=1
+[0.748s] -- BACKWARD_HAS_BACKTRACE=0
+[0.748s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.748s] -- BACKWARD_HAS_DW=1
+[0.748s] -- BACKWARD_HAS_BFD=0
+[0.749s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.755s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.827s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.838s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.854s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.884s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.926s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.972s] -- Found control_msgs: 4.6.0 (/home/kortex_ws/install/control_msgs/share/control_msgs/cmake)
+[1.861s] -- Found controller_interface: 2.41.0 (/home/kortex_ws/install/controller_interface/share/controller_interface/cmake)
+[2.115s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.124s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.187s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.212s] -- Looking for C++ include pthread.h
+[2.424s] -- Looking for C++ include pthread.h - found
+[2.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.601s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.602s] -- Found Threads: TRUE  
+[2.994s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[3.001s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.056s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[3.172s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.173s] -- Found controller_manager: 2.41.0 (/home/kortex_ws/install/controller_manager/share/controller_manager/cmake)
+[3.404s] -- Found ros2_control_test_assets: 2.41.0 (/home/kortex_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.409s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.464s] -- The C compiler identification is GNU 11.4.0
+[3.473s] -- Detecting C compiler ABI info
+[3.594s] -- Detecting C compiler ABI info - done
+[3.603s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.603s] -- Detecting C compile features
+[3.604s] -- Detecting C compile features - done
+[3.617s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.618s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.302s] -- Configuring done
+[4.404s] -- Generating done
+[4.407s] -- Build files have been written to: /home/kortex_ws/build/joint_state_broadcaster
+[4.445s] Invoked command in '/home/kortex_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/joint_state_broadcaster
+[4.452s] Invoking command in '/home/kortex_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/joint_state_broadcaster -- -j16 -l16
+[4.512s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/kortex_ws/build/joint_state_broadcaster/joint_state_broadcaster_parameters/include//joint_state_broadcaster_parameters.hpp /home/kortex_ws/src/ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster_parameters.yaml `[0m
+[4.513s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.528s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.530s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.944s] [ 33%] Built target joint_state_broadcaster_parameters
+[5.034s] [ 41%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[7.504s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[7.948s] [ 50%] Built target gmock_main
+[17.700s] [ 58%] [32m[1mLinking CXX static library libgmock.a[0m
+[18.220s] [ 58%] Built target gmock
+[25.382s] [ 66%] [32m[1mLinking CXX shared library libjoint_state_broadcaster.so[0m
+[25.982s] [ 66%] Built target joint_state_broadcaster
+[26.027s] [ 75%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o[0m
+[35.081s] [ 83%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[38.531s] [ 83%] Built target test_load_joint_state_broadcaster
+[38.584s] [ 91%] [32mBuilding CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o[0m
+[66.889s] [100%] [32m[1mLinking CXX executable test_joint_state_broadcaster[0m
+[68.425s] [100%] Built target test_joint_state_broadcaster
+[68.441s] Invoked command in '/home/kortex_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/joint_state_broadcaster -- -j16 -l16
+[68.485s] Invoking command in '/home/kortex_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/joint_state_broadcaster
+[68.497s] -- Install configuration: ""
+[68.497s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/include/joint_state_broadcaster_parameters
+[68.498s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/include/joint_state_broadcaster_parameters/joint_state_broadcaster_parameters.hpp
+[68.498s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/joint_state_plugin.xml
+[68.498s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/include/joint_state_broadcaster
+[68.498s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster
+[68.499s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/visibility_control.h
+[68.499s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/joint_state_broadcaster.hpp
+[68.499s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+[68.505s] -- Set runtime path of "/home/kortex_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so" to ""
+[68.505s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.sh
+[68.506s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.dsv
+[68.506s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+[68.506s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+[68.506s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+[68.506s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+[68.506s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+[68.507s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+[68.507s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+[68.507s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+[68.507s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+[68.507s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+[68.507s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+[68.507s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+[68.508s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+[68.508s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport.cmake
+[68.508s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport-noconfig.cmake
+[68.508s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[68.508s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.509s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+[68.509s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+[68.509s] -- Installing: /home/kortex_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml
+[68.512s] Invoked command in '/home/kortex_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/joint_state_broadcaster

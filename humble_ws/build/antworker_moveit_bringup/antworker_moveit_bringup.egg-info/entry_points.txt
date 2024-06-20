@@ -1,0 +1,3 @@
+[console_scripts]
+move_action_interface = antworker_moveit_bringup.move_action_interface:main
+

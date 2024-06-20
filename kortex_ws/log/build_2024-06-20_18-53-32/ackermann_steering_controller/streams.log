@@ -1,0 +1,116 @@
+[0.092s] Invoking command in '/home/kortex_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/steering_controllers_library/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_controllers/ackermann_steering_controller -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/ackermann_steering_controller
+[0.345s] -- The CXX compiler identification is GNU 11.4.0
+[0.375s] -- Detecting CXX compiler ABI info
+[0.728s] -- Detecting CXX compiler ABI info - done
+[0.742s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.743s] -- Detecting CXX compile features
+[0.743s] -- Detecting CXX compile features - done
+[0.750s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.582s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.605s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.622s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.623s] -- BACKWARD_HAS_UNWIND=1
+[1.624s] -- BACKWARD_HAS_BACKTRACE=0
+[1.624s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.624s] -- BACKWARD_HAS_DW=1
+[1.625s] -- BACKWARD_HAS_BFD=0
+[1.626s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.630s] -- Found controller_interface: 2.41.0 (/home/kortex_ws/install/controller_interface/share/controller_interface/cmake)
+[1.749s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.771s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.800s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.271s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.286s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.396s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.447s] -- Looking for C++ include pthread.h
+[4.029s] -- Looking for C++ include pthread.h - found
+[4.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.546s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.569s] -- Found Threads: TRUE  
+[5.170s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[5.183s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.268s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[5.361s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[5.401s] -- Found steering_controllers_library: 2.35.0 (/home/kortex_ws/install/steering_controllers_library/share/steering_controllers_library/cmake)
+[6.267s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.270s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.270s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.963s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[6.964s] -- Found controller_manager: 2.41.0 (/home/kortex_ws/install/controller_manager/share/controller_manager/cmake)
+[7.395s] -- Found ros2_control_test_assets: 2.41.0 (/home/kortex_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[7.404s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.480s] -- The C compiler identification is GNU 11.4.0
+[7.494s] -- Detecting C compiler ABI info
+[7.735s] -- Detecting C compiler ABI info - done
+[7.746s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.747s] -- Detecting C compile features
+[7.747s] -- Detecting C compile features - done
+[7.762s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.764s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.912s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.913s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.914s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.323s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[9.323s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[9.325s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.829s] -- Configuring done
+[10.041s] -- Generating done
+[10.046s] -- Build files have been written to: /home/kortex_ws/build/ackermann_steering_controller
+[10.083s] Invoked command in '/home/kortex_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/steering_controllers_library/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_controllers/ackermann_steering_controller -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/ackermann_steering_controller
+[10.087s] Invoking command in '/home/kortex_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/steering_controllers_library/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/ackermann_steering_controller -- -j16 -l16
+[10.176s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/kortex_ws/build/ackermann_steering_controller/ackermann_steering_controller_parameters/include//ackermann_steering_controller_parameters.hpp /home/kortex_ws/src/ros2_controllers/ackermann_steering_controller/src/ackermann_steering_controller.yaml `[0m
+[10.510s] [  8%] Built target ackermann_steering_controller_parameters
+[10.544s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[13.875s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[16.073s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[16.252s] [ 33%] Built target gmock
+[16.287s] [ 41%] [32mBuilding CXX object CMakeFiles/ackermann_steering_controller.dir/src/ackermann_steering_controller.cpp.o[0m
+[20.914s] [ 50%] [32m[1mLinking CXX shared library libackermann_steering_controller.so[0m
+[22.324s] [ 50%] Built target ackermann_steering_controller
+[22.356s] [ 58%] [32mBuilding CXX object CMakeFiles/test_load_ackermann_steering_controller.dir/test/test_load_ackermann_steering_controller.cpp.o[0m
+[28.953s] [ 66%] [32m[1mLinking CXX executable test_load_ackermann_steering_controller[0m
+[31.103s] [ 66%] Built target test_load_ackermann_steering_controller
+[31.137s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ackermann_steering_controller.dir/test/test_ackermann_steering_controller.cpp.o[0m
+[31.138s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ackermann_steering_controller_preceeding.dir/test/test_ackermann_steering_controller_preceeding.cpp.o[0m
+[43.375s] [ 91%] [32m[1mLinking CXX executable test_ackermann_steering_controller_preceeding[0m
+[48.316s] [ 91%] Built target test_ackermann_steering_controller_preceeding
+[50.786s] [100%] [32m[1mLinking CXX executable test_ackermann_steering_controller[0m
+[53.303s] [100%] Built target test_ackermann_steering_controller
+[53.325s] Invoked command in '/home/kortex_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/steering_controllers_library/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/ackermann_steering_controller -- -j16 -l16
+[53.375s] Invoking command in '/home/kortex_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/steering_controllers_library/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/ackermann_steering_controller
+[53.386s] -- Install configuration: ""
+[53.386s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/include/ackermann_steering_controller_parameters
+[53.386s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/include/ackermann_steering_controller_parameters/ackermann_steering_controller_parameters.hpp
+[53.387s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/ackermann_steering_controller.xml
+[53.387s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/include/ackermann_steering_controller
+[53.387s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller
+[53.387s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller/visibility_control.h
+[53.387s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller/ackermann_steering_controller.hpp
+[53.387s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so
+[53.389s] -- Set runtime path of "/home/kortex_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so" to ""
+[53.389s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/library_path.sh
+[53.389s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/library_path.dsv
+[53.389s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ament_index/resource_index/package_run_dependencies/ackermann_steering_controller
+[53.389s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ament_index/resource_index/parent_prefix_path/ackermann_steering_controller
+[53.390s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/ament_prefix_path.sh
+[53.390s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/ament_prefix_path.dsv
+[53.390s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/path.sh
+[53.390s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/path.dsv
+[53.390s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.bash
+[53.391s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.sh
+[53.391s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.zsh
+[53.391s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.dsv
+[53.392s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/package.dsv
+[53.392s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ament_index/resource_index/packages/ackermann_steering_controller
+[53.392s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ackermann_steering_controller
+[53.392s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport.cmake
+[53.392s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport-noconfig.cmake
+[53.393s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ament_cmake_export_targets-extras.cmake
+[53.393s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.394s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig.cmake
+[53.395s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig-version.cmake
+[53.395s] -- Installing: /home/kortex_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/package.xml
+[53.396s] Invoked command in '/home/kortex_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/steering_controllers_library:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/steering_controllers_library/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/ackermann_steering_controller

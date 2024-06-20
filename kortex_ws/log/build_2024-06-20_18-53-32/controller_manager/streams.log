@@ -1,0 +1,199 @@
+[0.026s] Invoking command in '/home/kortex_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/controller_manager
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.182s] -- The CXX compiler identification is GNU 11.4.0
+[0.191s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.294s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.406s] -- Detecting CXX compiler ABI info - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.414s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.422s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.668s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.827s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.842s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.854s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.854s] -- BACKWARD_HAS_UNWIND=1
+[0.854s] -- BACKWARD_HAS_BACKTRACE=0
+[0.854s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.855s] -- BACKWARD_HAS_DW=1
+[0.855s] -- BACKWARD_HAS_BFD=0
+[0.855s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.860s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.862s] -- Found controller_interface: 2.41.0 (/home/kortex_ws/install/controller_interface/share/controller_interface/cmake)
+[0.943s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.956s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.974s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.796s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.801s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.840s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.856s] -- Looking for pthread.h
+[1.978s] -- Looking for pthread.h - found
+[1.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.112s] -- Found Threads: TRUE  
+[2.388s] -- Found controller_manager_msgs: 2.41.0 (/home/kortex_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[2.440s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.895s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.896s] -- Found ros2_control_test_assets: 2.41.0 (/home/kortex_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.902s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.911s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.912s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.074s] -- Configuring done
+[3.524s] -- Generating done
+[3.528s] -- Build files have been written to: /home/kortex_ws/build/controller_manager
+[3.553s] Invoked command in '/home/kortex_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/controller_manager
+[3.555s] Invoking command in '/home/kortex_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/controller_manager -- -j16 -l16
+[3.623s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.625s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.625s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.629s] [ 11%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[3.640s] [ 11%] Built target ament_cmake_python_copy_controller_manager_setup
+[3.647s] [ 11%] Built target ament_cmake_python_copy_controller_manager
+[4.008s] running install_scripts
+[4.018s] running egg_info
+[4.019s] creating controller_manager.egg-info
+[4.019s] writing controller_manager.egg-info/PKG-INFO
+[4.020s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[4.020s] writing entry points to controller_manager.egg-info/entry_points.txt
+[4.021s] writing top-level names to controller_manager.egg-info/top_level.txt
+[4.021s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.025s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.026s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.041s] running egg_info
+[4.042s] writing controller_manager.egg-info/PKG-INFO
+[4.042s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[4.043s] writing entry points to controller_manager.egg-info/entry_points.txt
+[4.043s] writing top-level names to controller_manager.egg-info/top_level.txt
+[4.045s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.046s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[4.048s] Installing hardware_spawner script to scripts
+[4.048s] Installing spawner script to scripts
+[4.048s] Installing unspawner script to scripts
+[4.102s] [ 11%] Built target ament_cmake_python_build_controller_manager_egg
+[4.142s] [ 11%] Built target ament_cmake_python_build_controller_manager_scripts
+[5.208s] [ 14%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[5.310s] [ 14%] Built target gmock_main
+[7.180s] [ 17%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.322s] [ 17%] Built target gmock
+[20.082s] [ 20%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[21.029s] [ 20%] Built target controller_manager
+[21.051s] [ 37%] [32mBuilding CXX object CMakeFiles/test_controller_manager_urdf_passing.dir/test/test_controller_manager_urdf_passing.cpp.o[0m
+[21.051s] [ 37%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[21.051s] [ 37%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[21.051s] [ 37%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[21.052s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[21.052s] [ 37%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[24.364s] [ 40%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[24.556s] [ 40%] Built target test_controller
+[24.589s] [ 48%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[24.589s] [ 48%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[24.589s] [ 48%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.cpp.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[24.591s] [ 51%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[25.477s] [ 54%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[25.504s] [ 57%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[25.613s] [ 60%] [32m[1mLinking CXX executable ros2_control_node[0m
+[25.718s] [ 60%] Built target test_controller_failed_init
+[25.755s] [ 62%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[25.800s] [ 62%] Built target test_controller_with_interfaces
+[25.843s] [ 65%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[27.025s] [ 65%] Built target ros2_control_node
+[28.140s] [ 68%] [32m[1mLinking CXX executable test_controller_manager_urdf_passing[0m
+[30.003s] [ 68%] Built target test_controller_manager_urdf_passing
+[30.503s] [ 71%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[31.155s] [ 71%] Built target test_chainable_controller
+[31.183s] [ 77%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[31.183s] [ 77%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[32.204s] [ 80%] [32m[1mLinking CXX executable test_controller_manager_with_namespace.cpp[0m
+[32.694s] [ 82%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[33.519s] [ 85%] [32m[1mLinking CXX executable test_controller_manager[0m
+[34.624s] [ 85%] Built target test_controller_manager_with_namespace.cpp
+[34.811s] [ 88%] [32m[1mLinking CXX executable test_load_controller[0m
+[35.261s] [ 88%] Built target test_spawner_unspawner
+[35.626s] [ 91%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[35.731s] [ 94%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[36.169s] [ 94%] Built target test_controller_manager
+[37.256s] [ 94%] Built target test_load_controller
+[37.645s] [ 94%] Built target test_release_interfaces
+[37.825s] [ 94%] Built target test_hardware_management_srvs
+[39.795s] [ 97%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[40.756s] [ 97%] Built target test_controllers_chaining_with_controller_manager
+[43.636s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[44.728s] [100%] Built target test_controller_manager_srvs
+[44.740s] Invoked command in '/home/kortex_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/controller_manager -- -j16 -l16
+[44.806s] Invoking command in '/home/kortex_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/controller_manager
+[44.814s] -- Install configuration: ""
+[44.814s] -- Installing: /home/kortex_ws/install/controller_manager/lib/libcontroller_manager.so
+[44.834s] -- Set runtime path of "/home/kortex_ws/install/controller_manager/lib/libcontroller_manager.so" to ""
+[44.834s] -- Installing: /home/kortex_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[44.835s] -- Set runtime path of "/home/kortex_ws/install/controller_manager/lib/controller_manager/ros2_control_node" to ""
+[44.835s] -- Installing: /home/kortex_ws/install/controller_manager/include
+[44.835s] -- Installing: /home/kortex_ws/install/controller_manager/include/controller_manager
+[44.835s] -- Installing: /home/kortex_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[44.835s] -- Installing: /home/kortex_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[44.835s] -- Installing: /home/kortex_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[44.835s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[44.837s] -- Installing: /home/kortex_ws/install/controller_manager/lib/libtest_controller.so
+[44.838s] -- Set runtime path of "/home/kortex_ws/install/controller_manager/lib/libtest_controller.so" to ""
+[44.838s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[44.838s] -- Installing: /home/kortex_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[44.839s] -- Set runtime path of "/home/kortex_ws/install/controller_manager/lib/libtest_controller_failed_init.so" to ""
+[44.839s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[44.839s] -- Installing: /home/kortex_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[44.846s] -- Set runtime path of "/home/kortex_ws/install/controller_manager/lib/libtest_chainable_controller.so" to ""
+[44.846s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[44.846s] -- Installing: /home/kortex_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[44.847s] -- Set runtime path of "/home/kortex_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so" to ""
+[44.847s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[44.847s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[44.847s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.41.0-py3.10.egg-info
+[44.847s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.41.0-py3.10.egg-info/SOURCES.txt
+[44.848s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.41.0-py3.10.egg-info/dependency_links.txt
+[44.848s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.41.0-py3.10.egg-info/top_level.txt
+[44.848s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.41.0-py3.10.egg-info/PKG-INFO
+[44.848s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.41.0-py3.10.egg-info/entry_points.txt
+[44.848s] -- Up-to-date: /home/kortex_ws/install/controller_manager/lib/controller_manager/
+[44.848s] -- Installing: /home/kortex_ws/install/controller_manager/lib/controller_manager//spawner
+[44.848s] -- Installing: /home/kortex_ws/install/controller_manager/lib/controller_manager//hardware_spawner
+[44.848s] -- Installing: /home/kortex_ws/install/controller_manager/lib/controller_manager//unspawner
+[44.848s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager
+[44.849s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[44.849s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[44.849s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[44.849s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[44.849s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py
+[44.849s] -- Installing: /home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[44.879s] Listing '/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[44.879s] Compiling '/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py'...
+[44.879s] Compiling '/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py'...
+[44.879s] Compiling '/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/hardware_spawner.py'...
+[44.879s] Compiling '/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py'...
+[44.879s] Compiling '/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py'...
+[44.879s] Compiling '/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py'...
+[44.882s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[44.883s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[44.883s] -- Installing: /home/kortex_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[44.883s] -- Installing: /home/kortex_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[44.883s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[44.883s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[44.884s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[44.884s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[44.884s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[44.884s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[44.884s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[44.885s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[44.885s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/package.dsv
+[44.885s] -- Installing: /home/kortex_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[44.885s] -- Installing: /home/kortex_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[44.885s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[44.885s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.885s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.886s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[44.886s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[44.886s] -- Installing: /home/kortex_ws/install/controller_manager/share/controller_manager/package.xml
+[44.888s] Invoked command in '/home/kortex_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/controller_manager

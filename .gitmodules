@@ -1,0 +1,18 @@
+[submodule "kortex_ws/src/picknik_controllers"]
+	path = kortex_ws/src/picknik_controllers
+	url = https://github.com/picknikrobotics/picknik_controllers.git
+[submodule "kortex_ws/src/ros2_robotiq_gripper"]
+	path = kortex_ws/src/ros2_robotiq_gripper
+	url = https://github.com/picknikrobotics/ros2_robotiq_gripper.git
+[submodule "kortex_ws/src/serial"]
+	path = kortex_ws/src/serial
+	url = https://github.com/tylerjw/serial.git
+[submodule "kortex_ws/src/control_msgs"]
+	path = kortex_ws/src/control_msgs
+	url = https://github.com/ros-controls/control_msgs.git
+[submodule "kortex_ws/src/ros2_control"]
+	path = kortex_ws/src/ros2_control
+	url = https://github.com/ros-controls/ros2_control.git_msgs.git
+[submodule "kortex_ws/src/ros2_controllers"]
+	path = kortex_ws/src/ros2_controllers
+	url = https://github.com/ros-controls/ros2_controllers.git_msgs.git

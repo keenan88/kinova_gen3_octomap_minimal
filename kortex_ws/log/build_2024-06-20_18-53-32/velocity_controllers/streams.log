@@ -1,0 +1,99 @@
+[0.028s] Invoking command in '/home/kortex_ws/build/velocity_controllers': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_controllers/velocity_controllers -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/velocity_controllers
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.278s] -- Detecting CXX compile features
+[0.279s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.497s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.663s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.680s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.690s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.690s] -- BACKWARD_HAS_UNWIND=1
+[0.690s] -- BACKWARD_HAS_BACKTRACE=0
+[0.690s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.690s] -- BACKWARD_HAS_DW=1
+[0.690s] -- BACKWARD_HAS_BFD=0
+[0.691s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.692s] -- Found forward_command_controller: 2.35.0 (/home/kortex_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[0.780s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.791s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.808s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.863s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.669s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.675s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.726s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.748s] -- Looking for C++ include pthread.h
+[1.905s] -- Looking for C++ include pthread.h - found
+[1.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.055s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.056s] -- Found Threads: TRUE  
+[2.755s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.084s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.086s] -- Found controller_manager: 2.41.0 (/home/kortex_ws/install/controller_manager/share/controller_manager/cmake)
+[3.582s] -- Found ros2_control_test_assets: 2.41.0 (/home/kortex_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.590s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.653s] -- The C compiler identification is GNU 11.4.0
+[3.664s] -- Detecting C compiler ABI info
+[3.817s] -- Detecting C compiler ABI info - done
+[3.830s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.830s] -- Detecting C compile features
+[3.831s] -- Detecting C compile features - done
+[3.847s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.849s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.598s] -- Configuring done
+[4.783s] -- Generating done
+[4.787s] -- Build files have been written to: /home/kortex_ws/build/velocity_controllers
+[4.813s] Invoked command in '/home/kortex_ws/build/velocity_controllers' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_controllers/velocity_controllers -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/velocity_controllers
+[4.815s] Invoking command in '/home/kortex_ws/build/velocity_controllers': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/velocity_controllers -- -j16 -l16
+[4.894s] [  9%] [32mBuilding CXX object CMakeFiles/velocity_controllers.dir/src/joint_group_velocity_controller.cpp.o[0m
+[9.136s] [ 18%] [32m[1mLinking CXX shared library libvelocity_controllers.so[0m
+[9.583s] [ 18%] Built target velocity_controllers
+[9.614s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[12.962s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[15.342s] [ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[15.538s] [ 45%] Built target gmock
+[15.583s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[17.497s] [ 63%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[17.612s] [ 63%] Built target gmock_main
+[17.656s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_velocity_controller.dir/test/test_load_joint_group_velocity_controller.cpp.o[0m
+[17.668s] [ 81%] [32mBuilding CXX object CMakeFiles/test_joint_group_velocity_controller.dir/test/test_joint_group_velocity_controller.cpp.o[0m
+[28.549s] [ 90%] [32m[1mLinking CXX executable test_load_joint_group_velocity_controller[0m
+[30.613s] [100%] [32m[1mLinking CXX executable test_joint_group_velocity_controller[0m
+[33.855s] [100%] Built target test_joint_group_velocity_controller
+[34.698s] [100%] Built target test_load_joint_group_velocity_controller
+[34.715s] Invoked command in '/home/kortex_ws/build/velocity_controllers' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/velocity_controllers -- -j16 -l16
+[34.756s] Invoking command in '/home/kortex_ws/build/velocity_controllers': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/velocity_controllers
+[34.766s] -- Install configuration: ""
+[34.766s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/velocity_controllers_plugins.xml
+[34.767s] -- Installing: /home/kortex_ws/install/velocity_controllers/include/velocity_controllers
+[34.767s] -- Installing: /home/kortex_ws/install/velocity_controllers/include/velocity_controllers/velocity_controllers
+[34.767s] -- Installing: /home/kortex_ws/install/velocity_controllers/include/velocity_controllers/velocity_controllers/visibility_control.h
+[34.767s] -- Installing: /home/kortex_ws/install/velocity_controllers/include/velocity_controllers/velocity_controllers/joint_group_velocity_controller.hpp
+[34.767s] -- Installing: /home/kortex_ws/install/velocity_controllers/lib/libvelocity_controllers.so
+[34.768s] -- Set runtime path of "/home/kortex_ws/install/velocity_controllers/lib/libvelocity_controllers.so" to ""
+[34.768s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/environment/library_path.sh
+[34.768s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/environment/library_path.dsv
+[34.769s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/ament_index/resource_index/package_run_dependencies/velocity_controllers
+[34.769s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/ament_index/resource_index/parent_prefix_path/velocity_controllers
+[34.769s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/environment/ament_prefix_path.sh
+[34.769s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/environment/ament_prefix_path.dsv
+[34.769s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/environment/path.sh
+[34.770s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/environment/path.dsv
+[34.770s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/local_setup.bash
+[34.770s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/local_setup.sh
+[34.770s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/local_setup.zsh
+[34.770s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/local_setup.dsv
+[34.770s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/package.dsv
+[34.771s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/ament_index/resource_index/packages/velocity_controllers
+[34.771s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/velocity_controllers
+[34.771s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/cmake/export_velocity_controllersExport.cmake
+[34.771s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/cmake/export_velocity_controllersExport-noconfig.cmake
+[34.771s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[34.771s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.772s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/cmake/velocity_controllersConfig.cmake
+[34.772s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/cmake/velocity_controllersConfig-version.cmake
+[34.772s] -- Installing: /home/kortex_ws/install/velocity_controllers/share/velocity_controllers/package.xml
+[34.775s] Invoked command in '/home/kortex_ws/build/velocity_controllers' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/velocity_controllers

@@ -1,0 +1,42 @@
+FROM osrf/ros:humble-desktop
+
+RUN apt-get update
+RUN apt install vim -y
+
+RUN apt install gnome-terminal dbus-x11 -y
+
+# Intel Realsense SDK Installation
+RUN mkdir -p /etc/apt/keyrings
+RUN curl -sSf https://librealsense.intel.com/Debian/librealsense.pgp | sudo tee /etc/apt/keyrings/librealsense.pgp > /dev/null
+RUN apt-get install apt-transport-https -y
+RUN echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.intel.com/Debian/apt-repo `lsb_release -cs` main" | sudo tee /etc/apt/sources.list.d/librealsense.list
+RUN apt-get update
+RUN apt-get install librealsense2-dkms -y
+RUN apt-get install librealsense2-utils -y
+RUN apt-get install librealsense2-dev -y
+RUN apt-get install librealsense2-dbg -y
+
+RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+RUN curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+RUN apt install ros-humble-realsense2-* -y 
+
+RUN apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp -y
+ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+
+# Nvidia driver installation
+RUN echo "keyboard-configuration keyboard-configuration/layoutcode select us" | debconf-set-selections
+RUN echo "keyboard-configuration keyboard-configuration/xkb-keymap select us" | debconf-set-selections
+ENV DEBIAN_FRONTEND=noninteractive
+ENV KEYBOARD_KEYMAP=us
+ENV KEYBOARD_MODEL=pc105
+ENV KEYBOARD_LAYOUT=us
+RUN apt-get install locales -y
+RUN locale-gen en_US en_US.UTF-8
+RUN update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+RUN export LANG=en_US.UTF-8
+RUN apt-get install nvidia-driver-535 -y
+
+
+ENV ROS_DOMAIN_ID=1
+
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc 

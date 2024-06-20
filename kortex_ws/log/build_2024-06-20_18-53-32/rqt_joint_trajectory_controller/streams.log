@@ -1,0 +1,60 @@
+[0.553s] Invoking command in '/home/kortex_ws/src/ros2_controllers/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs LD_LIBRARY_PATH=/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/build/rqt_joint_trajectory_controller/prefix_override:/home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/kortex_ws/build/rqt_joint_trajectory_controller/build install --record /home/kortex_ws/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed install_data
+[0.757s] running egg_info
+[0.757s] creating ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info
+[0.757s] writing ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+[0.758s] writing top-level names to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+[0.758s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.759s] reading manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.760s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.760s] creating /home/kortex_ws/build/rqt_joint_trajectory_controller/build
+[0.760s] creating /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib
+[0.760s] creating /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.760s] copying rqt_joint_trajectory_controller/utils.py -> /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.766s] copying rqt_joint_trajectory_controller/double_editor.py -> /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.767s] copying rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.767s] copying rqt_joint_trajectory_controller/update_combo.py -> /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.767s] copying rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.767s] copying rqt_joint_trajectory_controller/__init__.py -> /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.767s] copying rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.768s] running install
+[0.768s] running install_lib
+[0.769s] creating /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.769s] copying /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/utils.py -> /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.769s] copying /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/double_editor.py -> /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.769s] copying /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.770s] copying /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/update_combo.py -> /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.770s] copying /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.770s] copying /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/__init__.py -> /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.770s] copying /home/kortex_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.771s] byte-compiling /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/utils.py to utils.cpython-310.pyc
+[0.773s] byte-compiling /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/double_editor.py to double_editor.cpython-310.pyc
+[0.773s] byte-compiling /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py to rqt_joint_trajectory_controller.cpython-310.pyc
+[0.774s] byte-compiling /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/update_combo.py to update_combo.cpython-310.pyc
+[0.774s] byte-compiling /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_limits_urdf.py to joint_limits_urdf.cpython-310.pyc
+[0.775s] byte-compiling /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/__init__.py to __init__.cpython-310.pyc
+[0.775s] byte-compiling /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_trajectory_controller.py to joint_trajectory_controller.cpython-310.pyc
+[0.777s] running install_data
+[0.777s] creating /home/kortex_ws/install/rqt_joint_trajectory_controller/share/ament_index
+[0.777s] creating /home/kortex_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index
+[0.777s] creating /home/kortex_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[0.778s] copying resource/rqt_joint_trajectory_controller -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[0.778s] copying package.xml -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[0.778s] creating /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.778s] copying resource/double_editor.ui -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.778s] copying resource/scope.png -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.778s] copying resource/joint_trajectory_controller.ui -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.778s] copying resource/off.svg -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.778s] copying resource/on.svg -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.779s] copying resource/scope.svg -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.779s] copying plugin.xml -> /home/kortex_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[0.779s] running install_egg_info
+[0.781s] Copying ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-2.35.0-py3.10.egg-info
+[0.782s] running install_scripts
+[0.799s] Installing rqt_joint_trajectory_controller script to /home/kortex_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[0.800s] writing list of installed files to '/home/kortex_ws/build/rqt_joint_trajectory_controller/install.log'
+[0.826s] Invoked command in '/home/kortex_ws/src/ros2_controllers/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs LD_LIBRARY_PATH=/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/build/rqt_joint_trajectory_controller/prefix_override:/home/kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/kortex_ws/build/rqt_joint_trajectory_controller/build install --record /home/kortex_ws/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed install_data

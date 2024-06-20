@@ -1,0 +1,99 @@
+[0.025s] Invoking command in '/home/kortex_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_controllers/effort_controllers -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/effort_controllers
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.265s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.467s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.634s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.646s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.654s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.654s] -- BACKWARD_HAS_UNWIND=1
+[0.654s] -- BACKWARD_HAS_BACKTRACE=0
+[0.654s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.654s] -- BACKWARD_HAS_DW=1
+[0.654s] -- BACKWARD_HAS_BFD=0
+[0.654s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.655s] -- Found forward_command_controller: 2.35.0 (/home/kortex_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[0.746s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.763s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.785s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.107s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.114s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.164s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.183s] -- Looking for C++ include pthread.h
+[2.331s] -- Looking for C++ include pthread.h - found
+[2.332s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.476s] -- Found Threads: TRUE  
+[2.899s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.128s] -- Found ament_cmake_gmock: 1.3.8 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.129s] -- Found controller_manager: 2.41.0 (/home/kortex_ws/install/controller_manager/share/controller_manager/cmake)
+[3.442s] -- Found ros2_control_test_assets: 2.41.0 (/home/kortex_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.448s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.498s] -- The C compiler identification is GNU 11.4.0
+[3.507s] -- Detecting C compiler ABI info
+[3.637s] -- Detecting C compiler ABI info - done
+[3.645s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.645s] -- Detecting C compile features
+[3.645s] -- Detecting C compile features - done
+[3.657s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.658s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.210s] -- Configuring done
+[4.375s] -- Generating done
+[4.379s] -- Build files have been written to: /home/kortex_ws/build/effort_controllers
+[4.404s] Invoked command in '/home/kortex_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kortex_ws/src/ros2_controllers/effort_controllers -DCMAKE_INSTALL_PREFIX=/home/kortex_ws/install/effort_controllers
+[4.406s] Invoking command in '/home/kortex_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/effort_controllers -- -j16 -l16
+[4.487s] [  9%] [32mBuilding CXX object CMakeFiles/effort_controllers.dir/src/joint_group_effort_controller.cpp.o[0m
+[8.792s] [ 18%] [32m[1mLinking CXX shared library libeffort_controllers.so[0m
+[9.207s] [ 18%] Built target effort_controllers
+[9.242s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[12.639s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[15.424s] [ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[15.634s] [ 45%] Built target gmock
+[15.672s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[17.225s] [ 63%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[17.359s] [ 63%] Built target gmock_main
+[17.401s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_effort_controller.dir/test/test_load_joint_group_effort_controller.cpp.o[0m
+[17.405s] [ 81%] [32mBuilding CXX object CMakeFiles/test_joint_group_effort_controller.dir/test/test_joint_group_effort_controller.cpp.o[0m
+[28.018s] [ 90%] [32m[1mLinking CXX executable test_load_joint_group_effort_controller[0m
+[30.246s] [100%] [32m[1mLinking CXX executable test_joint_group_effort_controller[0m
+[33.781s] [100%] Built target test_joint_group_effort_controller
+[34.464s] [100%] Built target test_load_joint_group_effort_controller
+[34.484s] Invoked command in '/home/kortex_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kortex_ws/build/effort_controllers -- -j16 -l16
+[34.535s] Invoking command in '/home/kortex_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/effort_controllers
+[34.550s] -- Install configuration: ""
+[34.550s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/effort_controllers_plugins.xml
+[34.551s] -- Installing: /home/kortex_ws/install/effort_controllers/include/effort_controllers
+[34.551s] -- Installing: /home/kortex_ws/install/effort_controllers/include/effort_controllers/effort_controllers
+[34.551s] -- Installing: /home/kortex_ws/install/effort_controllers/include/effort_controllers/effort_controllers/visibility_control.h
+[34.552s] -- Installing: /home/kortex_ws/install/effort_controllers/include/effort_controllers/effort_controllers/joint_group_effort_controller.hpp
+[34.552s] -- Installing: /home/kortex_ws/install/effort_controllers/lib/libeffort_controllers.so
+[34.553s] -- Set runtime path of "/home/kortex_ws/install/effort_controllers/lib/libeffort_controllers.so" to ""
+[34.553s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/environment/library_path.sh
+[34.553s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/environment/library_path.dsv
+[34.553s] -- Installing: /home/kortex_ws/install/effort_controllers/share/ament_index/resource_index/package_run_dependencies/effort_controllers
+[34.553s] -- Installing: /home/kortex_ws/install/effort_controllers/share/ament_index/resource_index/parent_prefix_path/effort_controllers
+[34.553s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.sh
+[34.553s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.dsv
+[34.554s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/environment/path.sh
+[34.554s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/environment/path.dsv
+[34.554s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/local_setup.bash
+[34.554s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/local_setup.sh
+[34.554s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/local_setup.zsh
+[34.555s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/local_setup.dsv
+[34.555s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/package.dsv
+[34.555s] -- Installing: /home/kortex_ws/install/effort_controllers/share/ament_index/resource_index/packages/effort_controllers
+[34.555s] -- Installing: /home/kortex_ws/install/effort_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/effort_controllers
+[34.556s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
+[34.556s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake
+[34.556s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[34.556s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.556s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake
+[34.556s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake
+[34.557s] -- Installing: /home/kortex_ws/install/effort_controllers/share/effort_controllers/package.xml
+[34.565s] Invoked command in '/home/kortex_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kortex_ws/install/forward_command_controller:/home/kortex_ws/install/controller_manager:/home/kortex_ws/install/hardware_interface_testing:/home/kortex_ws/install/controller_interface:/home/kortex_ws/install/hardware_interface:/home/kortex_ws/install/ros2_control_test_assets:/home/kortex_ws/install/controller_manager_msgs:/home/kortex_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kortex_ws/install/forward_command_controller/lib:/home/kortex_ws/install/controller_manager/lib:/home/kortex_ws/install/hardware_interface_testing/lib:/home/kortex_ws/install/controller_interface/lib:/home/kortex_ws/install/hardware_interface/lib:/home/kortex_ws/install/controller_manager_msgs/lib:/home/kortex_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kortex_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/kortex_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/kortex_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kortex_ws/build/effort_controllers
